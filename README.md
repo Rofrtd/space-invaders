@@ -15,7 +15,8 @@ This is a simple JavaScript web game designed to explain the most important conc
 - R4:The User can destroy an Invader by hitting it with a flying Bullet.
 - R5: The System can stop the game and show the score when any Invader touches the Laser.
 
-![Use Case Diagram](https://user-images.githubusercontent.com/25412194/135713471-6e3341d5-0b50-45d2-9f2b-4f89b7713107.png)
+![Use Case Diagram](https://user-images.githubusercontent.com/25412194/135713471-6e3341d5-0b50-45d2-9f2b-4f89b7713107.png)\
+Image 1 - Use Case Diagram
 
 #### Quality Requirements
 
@@ -28,6 +29,7 @@ This is a simple JavaScript web game designed to explain the most important conc
 ### Object Diagram
 
 ![Object Diagram](https://user-images.githubusercontent.com/25412194/135713432-b74e0c10-6709-4785-865a-f835a16b46a7.png)
+Image 2 - Object Diagram
 
 - `field` is the abtraction of the entire game.
 - `army` is the entire group of Invaders.
@@ -41,6 +43,7 @@ This is a simple JavaScript web game designed to explain the most important conc
 ### Component Diagram
 
 ![Component Diagram](https://user-images.githubusercontent.com/25412194/135713665-6afb25bd-c24c-47a0-8efe-a46d0a95bfa2.png)
+Image 3 - Component Diagram
 
 - `*.js` is the collection of all JavaScript objects.
 - `mains.css` is the only CSS stylesheet.
@@ -50,3 +53,12 @@ This is a simple JavaScript web game designed to explain the most important conc
 ### Deployment Diagram
 
 ![Deployment Diagram](https://user-images.githubusercontent.com/25412194/135714271-38a106b3-4be7-4b55-bd56-25d97325185f.png)
+Image 4 - Deployment Diagram
+
+## Design
+
+![Sequence Diagram of field](https://user-images.githubusercontent.com/25412194/135781331-e805e6a2-faef-4570-8826-824d81ef924c.png)
+Image 5 - Sequence Diagram of field
+
+![Sequence Diagram of laser](https://user-images.githubusercontent.com/25412194/135781826-2029f03c-c382-4abe-b90e-4bea3c142c2c.png)
+Image 6 - Sequence Diagram of laser
