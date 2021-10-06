@@ -1,0 +1,14 @@
+{
+  "env": {
+    "es6": true
+  },
+  "extends": "google",
+  "rules": {
+    "indent": "off"
+  },
+  "require-jsdoc": ["error", {
+        "require": {
+            "FunctionDeclaration": false,
+        }
+    }]
+}
