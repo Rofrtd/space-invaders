@@ -1,10 +1,14 @@
 function laser(d) {
     return {
         doc: d,
+        div: function() {
+          return this.doc.getElementById('laser')  
+        },
+        x: function() {
+            return this.div().getBoundingClientRect().left;
+        },
         move: function(dx) {
-            const div = this.doc.getElementById('laser');
-            const rect = div.getBoundingClientRect();
-            div.style.left = rect.left + dx + 'px';
+            return this.div().style.left = this.x() + dx + 'px';
         },
         init: function() {
             this.doc.addEventListener(
@@ -18,16 +22,6 @@ function laser(d) {
                     }
                 }.bind(this)
             );
-        },
-    };
-}
-
-function field(d) {
-    return {
-        doc: d,
-        laser: laser(d),
-        init: function() {
-            this.laser.init();
         },
     };
 }
