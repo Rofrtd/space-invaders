@@ -3,9 +3,8 @@ describe('laser', () => {
         document.body.innerHTML = '<div style="' +
             'left: 100px; position:absolute;"' +
             'id="laser">xxx</div>';
-        laser(document).move(+10);
-        const div = document.getElementById('laser');
-        const rect = div.getBoundingClientRect();
-        assert.equal(110, rect.left);
+        const lz = laser(document)
+        lz.move(+10);
+        assert.equal(110, lz.x());
     });
 })
