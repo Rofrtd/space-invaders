@@ -1,0 +1,15 @@
+#laser {
+    position: absolute;
+    bottom: 10px;
+    width: 60px;
+    height: 20px;
+    background-color: rgb(19, 6, 136);
+}
+.invader {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 40px;
+    height: 10px;
+    background-color: firebrick;
+}
